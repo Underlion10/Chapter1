@@ -81,7 +81,6 @@ public class ShoppingServlet extends HttpServlet {
 							}
 						} // if (shoplist == null) .. else ..
 					} else {
-						System.out.println("hh");
 						req.setAttribute("errorType", "1");
 					}
 				} // if (..add..
